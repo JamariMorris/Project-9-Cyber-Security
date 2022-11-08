@@ -21,13 +21,13 @@ Vulnerability #1: Session Hijacking/Fixation
 
 Description: Here I logged into the blue site on Google Chrome with the pperson credentials and then obtained the php sesion id. After, I then openeded up the php session id url to change the session id on Safari to that of the one on Google Chrome. Lastly, I accessed the URL for the blue site, and upon doing so gained access to the pperson login screen due to stealing their php session id.
 
-<img src="[blue-vuln1.gif](http://g.recordit.co/L1SAOXwLX0.gif)">
+<img src="http://g.recordit.co/L1SAOXwLX0.gif">
 
 Vulnerability #2: SQL Injection
 
 Description:Here I accessed the salespeople library and selected Samuel Hunter. After, I selected the url and added "' OR SLEEP(5)=0--'" this allowed me to gain access to the user Daron Burke. This means the URL responds to SQL input which means the developers did not sanitize the URL input.
 
-<img src="[green-vuln1.gif](http://g.recordit.co/tbHm7SO5Lv.gif)">
+<img src="http://g.recordit.co/tbHm7SO5Lv.gif">
 
 
 ## Green
@@ -42,7 +42,7 @@ Vulnerability #2: Cross-Site Scripting
 
 Description:By injecting JavaScript into the name field, one can then see that the "Contact us" page will accept scripts which is a big vulnerability. Upon sending the message, and clicking feedback, the XSS attack can be seen.
 
-<img src="[green-vuln1.gif](http://g.recordit.co/JQOk4xsxHc.gif)">
+<img src="http://g.recordit.co/JQOk4xsxHc.gif">
 
 ## Red
 
@@ -50,7 +50,7 @@ Vulnerability #1: Insecure Direct Object Reference
 
 Description: By changing the value of the value of the id from 5 to 11. One can access wht was originally private data. The user Lazy Lazyperson was not orignially seen on th epublic site which means injecting text into the url can bypass private access.
 
-<img src="[red-vuln1.gif](http://g.recordit.co/1Mi5uK18AK.gif)">
+<img src="http://g.recordit.co/1Mi5uK18AK.gif">
 
 
 ## Notes
