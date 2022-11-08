@@ -36,7 +36,7 @@ Vulnerability #1: Username Enumeration
 
 Description:By inspecting the HTML, I am able to find the message that indicates the error in the login process. However, there is a difference in how the error message is printed. For a username of pperson, which is an established login, the error message reads "failure". On the other hand, for a username of moo, which isnt an established login, the message reads "failed". From this, one can infer that if a username is real, it will show failure and if a username isnt real it will show failed, which is valuable information.
 
-<img src="[green-vuln1.gif](http://g.recordit.co/V2IEHFVPDU.gif)">
+<img src="http://g.recordit.co/V2IEHFVPDU.gif">
 
 Vulnerability #2: Cross-Site Scripting
 
